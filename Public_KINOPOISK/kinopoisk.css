@@ -1,6 +1,24 @@
-.picture1{
-    height: 504px;
-    width: 1232px;
+*{
+    margin: 0%;
+    padding: 0%;
+}
+a{
+    text-decoration: none;
+}
+li{
+     text-decoration: none;
+    list-style:none;
+}
+.hbkino{
+    display: flex;
+    justify-content: center;
 
 }
-    
+.chubacca{
+    display: flex;
+    justify-content: right;
+    margin-top: -20px;
+    padding:5px;
+
+}
+
