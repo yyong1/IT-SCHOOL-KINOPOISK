@@ -1,30 +1,29 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    
+a{
+    color: blue;
+    text-decoration: none;
+
 }
-.parent{
-display: flex;
-width: 100%;
-height: 150px;
-background-color: black;
-}
-.HeadKino{
+.header{
     display: flex;
-    width: 100%;
-    height: 0px;
-    background-color: black;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(29, 26, 26);
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-img {
-    padding: 50px;
-    width: 200px;
-    
-}
-.ButtonKino {
-    background: url(../logokino.svg) no-repeat top right;
-}
-button{ 
+.header_section{
     display: flex;
-    width: 75%;
-    height: 40px;
+    align-items: center;
+}
+.header_item{
+    padding: 10px 15px;
+    font-size: 20px;
+    margin-left: 5px;
+}
+.header_item:hover{
+    background-color: rgb(92, 90, 90);
+    border-radius: 4px;
+}
+.headerButton{
+    cursor: pointer;
 }
