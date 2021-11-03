@@ -122,4 +122,8 @@ body{
 .emptyThird{
    width: 500px; 
 }
-    
+.emptyLine{
+    width: 2000px;
+    height: 1px;
+    background-color: black;
+}
